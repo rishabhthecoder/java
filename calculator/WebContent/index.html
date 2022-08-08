@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>calculator</title>
+</head>
+<body>
+<UL>
+<c:foreach flag=msg items="${errorMessages}">
+<li>$msg</li>
+</c:forEach>
+</ul>
+
+<form action="function" method="get">
+<input type="number" name="t1" placeholder="first number" value=0> NUMBER1
+<br>
+<input type="number" name="t2" value=0 > NUMBER2
+<br>
+<select name="opt">
+<option value="add">add</option>
+<option value="sub">sub</option>
+<option value="mul">Multiplication</option>
+<option value="div">Division</option>
+<option value="no">compunding</option>
+</select>
+<input type = "submit">
+</form>
+<output name=></output>
+
+</body>
+</html>
